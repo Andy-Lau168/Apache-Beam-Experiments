@@ -20,7 +20,7 @@ parser.add_argument(
 parser.add_argument(
       '--output',
       dest='output',
-      default='test.csv',
+      default='Output.csv',
       help='Output file to write results to.')
 known_args, pipeline_args = parser.parse_known_args()
 
